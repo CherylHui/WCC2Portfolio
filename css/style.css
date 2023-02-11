@@ -14,10 +14,7 @@ h1{
 p{
     font-size: 16px;
 }
-p.Dan{
-    font-size: 18px;
-    color: red;
-}
+
 header{
     padding:0 3%;
 }
@@ -36,6 +33,12 @@ footer{
     min-height:100px;
 }
 
+
+span#red{
+    font-family: cursive;
+    font-size: 18px;
+    color: red;
+}
 
 /* Flex layouts are one of the easier ways to style responsive layouts that work on all devices */
 /* https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox */
