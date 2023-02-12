@@ -7,14 +7,6 @@ body{
     margin: 0;
 }
 
-body2{
-    
-    background-image: url(../assets/images/Sketch23.png); /*change the image to one of you choice */
-    background-position: center;
-    background-size: 100%;
-    
-}
-
 
 h1{
  
@@ -57,8 +49,17 @@ span#red{
     color: red;
 }
 
+span#back{
+    background-image: url(../assets/images/Sketch23.png); /*change the image to one of you choice */
+    background-position: center;
+    background-size: 100%;
+
+}
+
 /* Flex layouts are one of the easier ways to style responsive layouts that work on all devices */
 /* https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox */
+
+
 
 .flex-container{
     display: flex; /* all children will now be flex items */
