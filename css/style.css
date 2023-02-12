@@ -2,6 +2,12 @@
 /*This is a comment in CSS*/
 
 body{
+
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+body2{
     
     background-image: url(../assets/images/Sketch23.png); /*change the image to one of you choice */
     background-position: center;
