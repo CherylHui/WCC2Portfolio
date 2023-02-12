@@ -10,11 +10,17 @@ body{
 }
 
 h1{
+    color:whitesmoke;
     font-size: 30px;
     
 }
 
 p{
+    font-size: 16px;
+}
+
+p2{
+    color:whitesmoke;
     font-size: 16px;
 }
 
