@@ -2,10 +2,16 @@
 /*This is a comment in CSS*/
 
 body{
-    background-image: url(../assets/images/Sketch23.png); /*change the image to one of you choice */
-    background-position: center;
-    background-size: 100%;
+   
     font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+fontpageBody{
+    background-image: url(../assets/images/Sketch23.png); /*change the image to one of you choice */
+background-position: center;
+background-size: 100%;
+font-family: Verdana, sans-serif;
     margin: 0;
 }
 
