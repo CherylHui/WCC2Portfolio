@@ -16,9 +16,9 @@ font-family: Verdana, sans-serif;
 }
 
 h1{
-    color:whitesmoke;
+ 
     font-size: 30px;
-    
+    color:whitesmoke;
 }
 
 p{
@@ -26,8 +26,9 @@ p{
 }
 
 p2{
-    color:whitesmoke;
+
     font-size: 16px;
+    color:whitesmoke;
 }
 
 header{
