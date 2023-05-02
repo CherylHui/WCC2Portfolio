@@ -60,22 +60,16 @@
                 
                 
                 <!-- if you have a full width image try make it not too tall -->
-                <img src="../assets/images/Original Design.png"/>
-            
+                <div class="flex-container flex-basis-single">
+                    <div class="flex-item">
+                    <img src="../assets/images/Original Design.png"/>
+                    </div>
+                </div>
                 
             </section>
             <section>
                 <h3>Technical Implementation</h3>
-
-                <!-- example of styling for three images, you can write your own styling -->
-                <div class="flex-container flex-basis-two">
-                    <div class="flex-item">
-                        <img src="../assets/images/WaveHeartBeat.png"/>
-                    </div>
-                    <div class="flex-item">
-                        <img src="../assets/images/ColorWave.png"/>
-                    </div>
-                </div>
+                <br>
                 
                 <p>From technical aspect, this project can mainly divided into three parts, serial communication between Arduino and p5.js, audio analysis and audio reactive graphics.</p>
                 <br>
@@ -86,13 +80,13 @@
                 <p>Therefore, I decided to use the heartbeat rate to determine the colour of the graphics.</p>
                 <br>
                 
-                <!-- example of styling for three images, you can write your own styling -->
+                <!-- example of styling for two images, you can write your own styling -->
                 <div class="flex-container flex-basis-half">
                     <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-rect.jpeg"/>
+                        <img src="../assets/images/WaveHeartBeat.png"/>
                     </div>
                     <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-rect.jpeg"/>
+                        <img src="../assets/images/ColorWave.png"/>
                     </div>
                 </div>
                 <p>The audio analysis process utilised the FFT function. The function divided the audio file into 5 different spectrum, the bass, lowMid, Mid, highMid and tremble.</p>
