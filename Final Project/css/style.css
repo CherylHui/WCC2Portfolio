@@ -119,6 +119,8 @@ img{
 
 .flex-basis-half .flex-item{
     flex-basis: 20%; 
+    width: 300px
+    height: auto
 }
 
 .flex-basis-single .flex-item{
