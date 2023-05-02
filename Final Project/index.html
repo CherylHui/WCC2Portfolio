@@ -17,9 +17,9 @@
         </nav>
         <header class="documentation-header">
             <section class="center-text">
-                <h1>How are you today? (2023)</h1>
-                <h2>by Wing Hei Cheryl Hui</h6>
-                <p>An interactive meditation booth.</p> 
+                <h1> How are you today? (2023)</h1>
+                <h2 style="color:white;">by Wing Hei Cheryl Hui</h2>
+                <p style="color:white;">An interactive meditation booth.</p> 
             </section>
         </header>
 
@@ -32,7 +32,9 @@
             <section>
                 <h3>Introduction</h3>
                 <p>Audience can enter the meditation booth to spend sometime with themselves and meditate.</p>
+                <br>
                 <p>During the meditation, interactive audiovisual elements will be projected into the meditation booth,</p>  
+                <br>
                 <p>the scent of lavender will also come out of the booth and meditative music will be played during the meditation.</p>
             </section>
             <section>
@@ -53,31 +55,37 @@
                 <br>
                 <p>These frequencies are specific tones that claimed to be beneficial towards the mind and body in specific ways.
                 </p>
+                <br>
                 
                 
                 
                 <!-- if you have a full width image try make it not too tall -->
-                <img src="../assets/images/frequency.png"/>
+                <img src="../assets/images/Original Design.png"/>
+            
                 
             </section>
             <section>
                 <h3>Technical Implementation</h3>
 
                 <!-- example of styling for three images, you can write your own styling -->
-                <div class="flex-container flex-basis-third">
+                <div class="flex-container flex-basis-two">
                     <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-square.jpeg"/>
+                        <img src="../assets/images/WaveHeartBeat.png"/>
                     </div>
                     <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-square.jpeg"/>
-                    </div>
-                    <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-square.jpeg"/>
+                        <img src="../assets/images/ColorWave.png"/>
                     </div>
                 </div>
                 
-                <p>Write about the process of implementing your project. What technical elements or hardware are involved in your system. Write about why you made certain technical or design decisions etc. </p>
-            
+                <p>From technical aspect, this project can mainly divided into three parts, serial communication between Arduino and p5.js, audio analysis and audio reactive graphics.</p>
+                <br>
+                <p>The serial communication between Arduino and p5.js sends heartbeat rate data to the sketch and responsible for the colour change of the graphics. During the design</p>
+                <br>
+                <p>process, I have tried to use the heartbeat rate data for the rotation of the graphic. However, the effect was not satisfying. </p>
+                <br>
+                <p>Therefore, I decided to use the heartbeat rate to determine the colour of the graphics.</p>
+                <br>
+                
                 <!-- example of styling for three images, you can write your own styling -->
                 <div class="flex-container flex-basis-half">
                     <div class="flex-item">
