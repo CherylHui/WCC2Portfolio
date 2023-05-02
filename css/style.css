@@ -49,6 +49,13 @@ span#red{
 }
 
 
+span#green{
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(4, 68, 9);
+}
+
+
 /* Flex layouts are one of the easier ways to style responsive layouts that work on all devices */
 /* https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox */
 
