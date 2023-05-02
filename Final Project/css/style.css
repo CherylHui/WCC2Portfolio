@@ -114,15 +114,15 @@ img{
 }
 
 .flex-basis-third .flex-item{
-    flex-basis: 33.33%; 
+    flex-basis: 10%; 
 }
 
 .flex-basis-half .flex-item{
-    flex-basis: 50%; 
+    flex-basis: 20%; 
 }
 
 .flex-basis-single .flex-item{
-    flex-basis: 40%; 
+    flex-basis: 20%; 
 }
 
 .flex-item a{
